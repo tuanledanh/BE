@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MSIA.WebFresher032023.Demo.BL_Services.DTO.Empl;
+using MSIA.WebFresher032023.Demo.BL_Services.Service.Empl;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +10,68 @@ namespace MSIA.WebFresher032023.Demo.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        // GET: api/<EmployeeController>
+        private readonly IEmployeeService _employeeService;
+        public EmployeeController(IConfiguration configuration, IEmployeeService employeeService)
+        {
+            _employeeService = employeeService;
+        }
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<IActionResult> GetListEmployees([FromQuery] int pageNumber, [FromQuery] int pageLimit, [FromQuery] string? filterName)
         {
-            return new string[] { "value1", "value2" };
+            var employees = await _employeeService.GetListAsync(pageNumber, pageLimit, filterName);
+            if (employees.Any())
+            {
+                return Ok(employees);
+            }
+            else
+            {
+                throw new Exception("Không thể tìm thấy danh sách nhân viên");
+            }
         }
-
-        // GET api/<EmployeeController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<EmployeeDto?> GetAsync(Guid id)
         {
-            return "value";
+            var employeeDto = await _employeeService.GetAsync(id);
+            return employeeDto;
         }
-
-        // POST api/<EmployeeController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> PostAsync([FromBody] EmployeeCreateDto employeeCreateDto)
         {
+            var result = await _employeeService.PostAsync(employeeCreateDto);
+            if (result)
+            {
+                return Ok("Insert successfully");
+            }
+            else
+            {
+                throw new Exception("Không thể thêm mới nhân viên này");
+            }
         }
-
-        // PUT api/<EmployeeController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<IActionResult> UpdateEmployee(Guid id, [FromBody] EmployeeUpdateDto employeeUpdateDto)
         {
+            var result = await _employeeService.PutAsync(id, employeeUpdateDto);
+            if (result)
+            {
+                return Ok("Update successfully");
+            }
+            else
+            {
+                throw new Exception("Không thể cập nhật nhân viên này");
+            }
         }
-
-        // DELETE api/<EmployeeController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> DeleteEmployee(Guid id)
         {
+            var result = await _employeeService.DeleteAsync(id);
+            if (result)
+            {
+                return Ok("Delete successfully");
+            }
+            else
+            {
+                throw new Exception("Không thể xóa nhân viên này");
+            }
         }
     }
 }

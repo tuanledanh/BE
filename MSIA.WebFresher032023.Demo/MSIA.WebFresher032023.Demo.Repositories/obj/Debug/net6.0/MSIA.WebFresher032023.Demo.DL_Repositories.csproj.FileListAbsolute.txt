@@ -1,0 +1,15 @@
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\bin\Debug\net6.0\MSIA.WebFresher032023.Demo.DL_Repositories.deps.json
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\bin\Debug\net6.0\MSIA.WebFresher032023.Demo.DL_Repositories.dll
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\bin\Debug\net6.0\MSIA.WebFresher032023.Demo.DL_Repositories.pdb
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\bin\Debug\net6.0\MSIA.WebFresher032023.Demo.Commons.dll
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\bin\Debug\net6.0\MSIA.WebFresher032023.Demo.Commons.pdb
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\obj\Debug\net6.0\MSIA.WebFresher032023.Demo.DL_Repositories.csproj.AssemblyReference.cache
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\obj\Debug\net6.0\MSIA.WebFresher032023.Demo.DL_Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\obj\Debug\net6.0\MSIA.WebFresher032023.Demo.DL_Repositories.AssemblyInfoInputs.cache
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\obj\Debug\net6.0\MSIA.WebFresher032023.Demo.DL_Repositories.AssemblyInfo.cs
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\obj\Debug\net6.0\MSIA.WebFresher032023.Demo.DL_Repositories.csproj.CoreCompileInputs.cache
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\obj\Debug\net6.0\MSIA.WebFresher032023.Demo.DL_Repositories.csproj.CopyComplete
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\obj\Debug\net6.0\MSIA.WebFresher032023.Demo.DL_Repositories.dll
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\obj\Debug\net6.0\refint\MSIA.WebFresher032023.Demo.DL_Repositories.dll
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\obj\Debug\net6.0\MSIA.WebFresher032023.Demo.DL_Repositories.pdb
+D:\MisaCode\Git\BE\MSIA.WebFresher032023.Demo\MSIA.WebFresher032023.Demo.Repositories\obj\Debug\net6.0\ref\MSIA.WebFresher032023.Demo.DL_Repositories.dll

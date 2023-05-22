@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mZjexyyYNk/O8fJvQ/bfbBhDVXWSmHsVBb4A9mMgmr6pgAZ3XYQS7cfTzayhPH1cHk041CKfqDfLBTS3HpIHAQ==",
+  "dgSpecHash": "RY7dxp1BNSXcT5ThyRJ/BsuH6YMRV89iKrribfOTajGLmvM1v6XGk7NCTe+tVANOlihYCbw+iFJg1R2enn5p4A==",
   "success": true,
-  "projectFilePath": "D:\\MisaCode\\Git\\Misa_tranining\\BE\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB.csproj",
+  "projectFilePath": "D:\\MisaCode\\Git\\BE\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tuanl\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\tuanl\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

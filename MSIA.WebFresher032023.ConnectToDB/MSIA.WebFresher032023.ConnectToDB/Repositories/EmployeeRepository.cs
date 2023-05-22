@@ -126,6 +126,7 @@ namespace MSIA.WebFresher032023.ConnectToDB.Repositories
                 {
                     var parameters = new
                     {
+                        p_EmployeeId = id,
                         p_EmployeeCode = employeeDto.EmployeeCode,
                         p_FullName = employeeDto.FullName,
                         p_Gender = GenderExtension.ConvertStringGender(employeeDto.Gender.ToLower()),

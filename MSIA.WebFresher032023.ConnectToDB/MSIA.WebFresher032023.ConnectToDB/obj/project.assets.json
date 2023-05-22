@@ -2265,11 +2265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MisaCode\\Git\\Misa_tranining\\BE\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB.csproj",
+      "projectUniqueName": "D:\\MisaCode\\Git\\BE\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB.csproj",
       "projectName": "MSIA.WebFresher032023.ConnectToDB",
-      "projectPath": "D:\\MisaCode\\Git\\Misa_tranining\\BE\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB.csproj",
+      "projectPath": "D:\\MisaCode\\Git\\BE\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB.csproj",
       "packagesPath": "C:\\Users\\tuanl\\.nuget\\packages\\",
-      "outputPath": "D:\\MisaCode\\Git\\Misa_tranining\\BE\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB\\obj\\",
+      "outputPath": "D:\\MisaCode\\Git\\BE\\MSIA.WebFresher032023.ConnectToDB\\MSIA.WebFresher032023.ConnectToDB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tuanl\\AppData\\Roaming\\NuGet\\NuGet.Config",
